@@ -1,0 +1,180 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M1024 103.131l-103.131-103.131-408.869 408.869-408.869-408.869-103.131 103.131 408.869 408.869-408.869 408.869 103.131 103.131 408.869-408.869 408.869 408.869 103.131-103.131-408.869-408.869 408.869-408.869z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "close"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 76,
+        "id": 12,
+        "name": "close",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M640 256h-512c-35.2 0-63.68 28.8-63.68 64l-0.32 384c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-384c0-35.2-28.8-64-64-64zM627.2 392l-226.24 141.44c-10.24 6.4-23.68 6.4-33.92 0l-226.24-141.44c-8-5.12-12.8-13.76-12.8-23.040 0-21.44 23.36-34.24 41.6-23.040l214.4 134.080 214.4-134.080c18.24-11.2 41.6 1.6 41.6 23.040 0 9.28-4.8 17.92-12.8 23.040z"
+        ],
+        "attrs": [],
+        "width": 768,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "email"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 77,
+        "id": 11,
+        "name": "email",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 512c94.293 0 170.667-76.373 170.667-170.667s-76.373-170.667-170.667-170.667c-94.293 0-170.667 76.373-170.667 170.667s76.373 170.667 170.667 170.667zM512 597.333c-113.92 0-341.333 57.173-341.333 170.667v42.667c0 23.467 19.2 42.667 42.667 42.667h597.333c23.467 0 42.667-19.2 42.667-42.667v-42.667c0-113.493-227.413-170.667-341.333-170.667z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "person"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 72,
+        "id": 10,
+        "name": "person",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M628.322 591.578l-78.43-8.956c-18.833-2.159-37.359 4.326-50.637 17.6l-56.815 56.815c-87.381-44.463-159.016-115.789-203.479-203.477l57.122-57.125c13.277-13.277 19.761-31.803 17.6-50.639l-8.954-77.81c-3.705-31.186-29.951-54.653-61.445-54.653h-53.417c-34.891 0-63.916 29.024-61.754 63.916 16.365 263.692 227.255 474.273 490.634 490.636 34.893 2.163 63.915-26.863 63.915-61.751v-53.419c0.311-31.185-23.155-57.429-54.34-61.137z"
+        ],
+        "attrs": [],
+        "width": 768,
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "phone"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [],
+      "properties": {
+        "order": 78,
+        "id": 9,
+        "name": "phone",
+        "prevSize": 32
+      },
+      "setIdx": 0,
+      "setId": 9,
+      "iconIdx": 3
+    },
+    {
+      "icon": {
+        "paths": [
+          "M128 32h768c53.019 0 96 42.981 96 96v768c0 53.019-42.981 96-96 96h-768c-53.019 0-96-42.981-96-96v-768c0-53.019 42.981-96 96-96z"
+        ],
+        "attrs": [
+          {
+            "fill": "none",
+            "strokeLinejoin": "miter",
+            "strokeLinecap": "butt",
+            "strokeMiterlimit": "4",
+            "strokeWidth": 64
+          }
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "Checkbox"
+        ],
+        "colorPermutations": {}
+      },
+      "attrs": [
+        {
+          "fill": "none",
+          "strokeLinejoin": "miter",
+          "strokeLinecap": "butt",
+          "strokeMiterlimit": "4",
+          "strokeWidth": 64
+        }
+      ],
+      "properties": {
+        "order": 79,
+        "id": 0,
+        "name": "Checkbox",
+        "prevSize": 32
+      },
+      "setIdx": 5,
+      "setId": 4,
+      "iconIdx": 0
+    }
+  ],
+  "height": 1024,
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "showGrid": false
+  }
+}
