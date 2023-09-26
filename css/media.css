@@ -8,6 +8,33 @@
   .container {
     max-width: 768px;
   }
+
+  /* .footer .container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+  } */
+
+  .footer-address-list {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+  }
+
+  .footer-link {
+  }
+
+  .footer-paragraf {
+  }
+
+  .footer-subscribe {
+  }
+
+  .footer-form {
+  }
+
+  .footer-text {
+  }
 }
 
 @media screen and (min-width: 1158px) {
