@@ -76,10 +76,11 @@ p {
 
 .header-hero .container {
   display: flex;
-  padding: 15px 0 15px 0;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .header-nav {
@@ -265,7 +266,7 @@ p {
 }
 
 .contact-mobile {
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .mobile-contact-list {
@@ -335,7 +336,7 @@ p {
 .hero-title {
   /* font-size: 56px; */
   font-size: 36px;
-  line-height: 1.07;
+  line-height: 1.11;
   font-weight: 700;
   letter-spacing: 0.02em;
   /* max-width: 496px; */
@@ -401,7 +402,7 @@ p {
 /* Hidden section */
 
 .hidden-section {
-  padding: 120px 0;
+  padding: 96px 0;
   color: #2e2f42;
 }
 
@@ -448,8 +449,8 @@ p {
 
 .section-team {
   background-color: #f4f4fd;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .section-team img {
@@ -503,7 +504,7 @@ p {
   border-radius: 0px 0px 4px 4px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .person-div {
@@ -551,7 +552,7 @@ p {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   color: #434455;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .person-title {
@@ -567,7 +568,9 @@ p {
 .portfolio-person-list {
   border: 1px solid #e7e9fc;
   border-top: none;
-  padding: 32px 16px;
+  /* padding: 32px 16px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .portfolio-text {
@@ -667,8 +670,8 @@ p {
 
 .footer-link {
   /* margin-right: 120px; */
+  margin-bottom: 70px;
   justify-content: center;
-  display: flex;
   flex-wrap: wrap;
 }
 
@@ -682,7 +685,6 @@ p {
 }
 
 .footer-address-list {
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 70px;
@@ -731,7 +733,7 @@ p {
   /* max-width: 264px; */
   color: #f4f4fd;
   /* text-align: center; */
-  margin-bottom: 70px;
+
   font-weight: 400;
   font-size: 16px;
 }
