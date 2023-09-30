@@ -973,6 +973,7 @@ p {
 }
 
 .lable-checkbox {
+  display: flex;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -992,6 +993,7 @@ p {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  flex-shrink: 0;
 }
 
 .checkbox-input:checked + .lable-checkbox .span-checkbox {
