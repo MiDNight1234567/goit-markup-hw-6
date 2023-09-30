@@ -18,7 +18,9 @@
     <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <!-- <header class="header-hero">
+    <!-- Header -->
+
+    <header class="header-hero">
       <div class="container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
@@ -32,6 +34,11 @@
             <li><a class="header-link" href="">Contacts</a></li>
           </ul>
         </nav>
+        <button class="button-mobile-menu" id="open-menu" type="menu">
+          <svg class="button-menu" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
         <address class="header-address">
           <ul class="header-address-list">
             <li>
@@ -47,15 +54,20 @@
           </ul>
         </address>
       </div>
-    </header> -->
+    </header>
     <main>
-      <!-- <section class="hero-section">
+      <!-- Hero section -->
+
+      <section class="hero-section" section>
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
-        </div> -->
+        </div>
       </section>
-      <!-- <section class="hidden-section">
+
+      <!-- Hidden section -->
+
+      <section class="hidden-section" section>
         <div class="container">
           <h2 class="visually-hidden">Our achievements</h2>
           <ul class="hidden-section-list">
@@ -109,13 +121,20 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="section-team">
+      </section>
+
+      <!-- Team section -->
+
+      <section class="section-team" section>
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="person-title">
             <li class="product-designer">
               <img
+                srcset="
+                  ./images/MarkGuerrero.jpg    1x,
+                  ./images/MarkGuerrero@2x.jpg 2x
+                "
                 src="./images/MarkGuerrero.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -158,6 +177,7 @@
             </li>
             <li class="product-designer">
               <img
+                srcset="./images/TomFord.jpg 1x, ./images/TomFord@2x.jpg 2x"
                 src="./images/TomFord.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -200,6 +220,10 @@
             </li>
             <li class="product-designer">
               <img
+                srcset="
+                  ./images/CamilaGarcia.jpg    1x,
+                  ./images/CamilaGarcia@2x.jpg 2x
+                "
                 src="./images/CamilaGarcia.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -242,6 +266,10 @@
             </li>
             <li class="product-designer">
               <img
+                srcset="
+                  ./images/DanielWilson.jpg    1x,
+                  ./images/DanielWilson@2x.jpg 2x
+                "
                 src="./images/DanielWilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -284,18 +312,25 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="section-portfolio">
+      </section>
+
+      <!-- Portfolio section -->
+
+      <section class="section-portfolio" section id="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="section-list">
               <div class="portfolio-icon">
                 <img
+                  srcset="
+                    ./images/BankingApp.jpg    1x,
+                    ./images/BankingApp@2x.jpg 2x
+                  "
                   src="./images/BankingApp.jpg"
                   alt="Banking App"
                   width="360"
-                  height="294"
+                  height="300"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -311,10 +346,14 @@
             <li class="section-list">
               <div class="portfolio-icon">
                 <img
+                  srcset="
+                    ./images/CashlessPayment.jpg    1x,
+                    ./images/CashlessPayment@2x.jpg 2x
+                  "
                   src="./images/CashlessPayment.jpg"
                   alt="Cashless Payment"
                   width="360"
-                  height="294"
+                  height="300"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -330,10 +369,14 @@
             <li class="section-list">
               <div class="portfolio-icon">
                 <img
+                  srcset="
+                    ./images/MeditationApp.jpg    1x,
+                    ./images/MeditationApp@2x.jpg 2x
+                  "
                   src="./images/MeditationApp.jpg"
                   alt="Meditation App"
                   width="360"
-                  height="294"
+                  height="300"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -349,10 +392,14 @@
             <li class="section-list">
               <div class="portfolio-icon">
                 <img
+                  srcset="
+                    ./images/TaxiService.jpg    1x,
+                    ./images/TaxiService@2x.jpg 2x
+                  "
                   src="./images/TaxiService.jpg"
                   alt="Taxi Service"
                   width="360"
-                  height="294"
+                  height="300"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -368,10 +415,14 @@
             <li class="section-list">
               <div class="portfolio-icon">
                 <img
+                  srcset="
+                    ./images/ScreenIllustrations.jpg    1x,
+                    ./images/ScreenIllustrations@2x.jpg 2x
+                  "
                   src="./images/ScreenIllustrations.jpg"
                   alt="Screen Illustrations"
                   width="360"
-                  height="294"
+                  height="300"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -387,10 +438,14 @@
             <li class="section-list">
               <div class="portfolio-icon">
                 <img
+                  srcset="
+                    ./images/OnlineCourses.jpg    1x,
+                    ./images/OnlineCourses@2x.jpg 2x
+                  "
                   src="./images/OnlineCourses.jpg"
                   alt="Online Courses"
                   width="360"
-                  height="294"
+                  height="300"
                 />
                 <p class="portfolio-text">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -405,9 +460,12 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
-    <footer class="footer">
+
+    <!-- Footer section -->
+
+    <footer class="footer" id="contacts">
       <div class="container">
         <div class="footer-link">
           <a class="footer-logo" href="./index.html"
@@ -472,8 +530,10 @@
         </div>
       </div>
     </footer>
-    <!-- Modal -->
-    <!-- <div class="modal-conteiner is-hidden">
+
+    <!-- Modal  -->
+
+    <div class="modal-conteiner is-hidden">
       <div class="modal">
         <button class="modal-button" type="button">
           <svg class="button-close" width="8" height="8">
@@ -483,7 +543,7 @@
         <p class="modal-paragraf">
           Leave your contacts and we will call you back
         </p>
-        <form>
+        <form class="modal-form">
           <div class="form-div">
             <label class="modal-lable" for="user-name">Name</label>
             <div class="lable-icon">
@@ -556,6 +616,112 @@
           <button type="submit" class="checkbox-button">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
+
+    <!-- Mobile menu -->
+
+    <div class="mobile-menu-conteiner is-hidden" id="open-menu">
+      <button class="modal-button" type="button" id="close-menu">
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/modal-icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu-top">
+        <nav class="mobile-nav">
+          <ul class="mobile-menu">
+            <li>
+              <a class="mobile-nav-item active" href="./index.html">Studio</a>
+            </li>
+            <li><a class="mobile-nav-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="mobile-nav-item" href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mobile-menu-bottom">
+        <address class="contact-mobile">
+          <ul class="mobile-contact-list">
+            <li>
+              <a class="mobile-contact-item active" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="mobile-contact-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="footer-list">
+          <li class="footer-list-social">
+            <a href="#" class="footer-social">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-social">
+            <a href="#" class="footer-social">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-social">
+            <a href="#" class="footer-social">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-list-social">
+            <a href="#" class="footer-social">
+              <svg class="icon" width="24" height="24">
+                <use href="./images/icon.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <script>
+      window.addEventListener("DOMContentLoaded", (event) => {
+        const obtn = document.getElementById("order-button");
+        if (obtn) {
+          obtn.addEventListener("click", openModal, false);
+        }
+        const cbtn = document.getElementById("modal-close");
+        if (cbtn) {
+          cbtn.addEventListener("click", closeModal, false);
+        }
+        const omenu = document.getElementById("open-menu");
+        if (omenu) {
+          omenu.addEventListener("click", openMenu, false);
+        }
+        const cmenu = document.getElementById("close-menu");
+        if (cmenu) {
+          cmenu.addEventListener("click", closeMenu, false);
+        }
+      });
+      function openModal() {
+        document
+          .getElementById("order-modal-form")
+          .classList.remove("is-hidden");
+        document.getElementById("order-modal-form").classList.add("is-open");
+      }
+      function closeModal() {
+        document.getElementById("order-modal-form").classList.remove("is-open");
+        document.getElementById("order-modal-form").classList.add("is-hidden");
+      }
+      function openMenu() {
+        document.getElementById("menu-block").classList.remove("is-hidden");
+        document.getElementById("menu-block").classList.add("is-open");
+      }
+      function closeMenu() {
+        document.getElementById("menu-block").classList.remove("is-open");
+        document.getElementById("menu-block").classList.add("is-hidden");
+      }
+    </script> -->
   </body>
 </html>
