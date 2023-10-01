@@ -568,9 +568,9 @@ p {
 .portfolio-person-list {
   border: 1px solid #e7e9fc;
   border-top: none;
-  /* padding: 32px 16px; */
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding: 32px 16px;
+  /* padding-top: 96px;
+  padding-bottom: 96px; */
 }
 
 .portfolio-text {
@@ -682,11 +682,14 @@ p {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-address-list {
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 70px;
 }
 
