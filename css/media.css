@@ -386,6 +386,8 @@
       url(../images/people-office1158-min.jpg);
     padding: 188px 0;
     max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-title {
